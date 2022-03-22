@@ -102,26 +102,32 @@
                 </div>
             </div>
         </div>
-		<script class="addthis__script">
-    (function() {
-        window.addthis_config = window.addthis_config || {};
-        window.addthis_config.pubid = 'ra\\u002D5b31b8e72d79a4f7';
-        var addthisScript = document.createElement('script');
-        addthisScript.async = true;
-        var script = document.getElementsByTagName('script')[0];
-        script.parentNode.insertBefore(addthisScript, script);
-        addthisScript.onload = function() {
-            addthis.addEventListener('addthis.ready', function() {
-                var socialShare = document.querySelector('.social-share');
-                if(socialShare) {
-                    socialShare.classList.remove('social-share--hidden');
-                }
-                document.querySelector('html').classList.add('addthis-loaded');
-            });
-            addthis.init();
-        };
-        addthisScript.src = 'https://singlife.com/etc.clientlibs/asl-common/clientlibs/clientlib-base/resources/shared/js/social/addthis_widget.js#async=1'
-    })();
-</script>
+        <script class="addthis__script">
+            (function () {
+                window.addthis_config = window.addthis_config || {};
+                window.addthis_config.pubid = "ra\\u002D5b31b8e72d79a4f7";
+                var addthisScript = document.createElement("script");
+                addthisScript.async = true;
+                var script = document.getElementsByTagName("script")[0];
+                script.parentNode.insertBefore(addthisScript, script);
+                addthisScript.onload = function () {
+                    addthis.addEventListener("addthis.ready", function () {
+                        var socialShare =
+                            document.querySelector(".social-share");
+                        if (socialShare) {
+                            socialShare.classList.remove(
+                                "social-share--hidden"
+                            );
+                        }
+                        document
+                            .querySelector("html")
+                            .classList.add("addthis-loaded");
+                    });
+                    addthis.init();
+                };
+                addthisScript.src =
+                    "https://singlife.com/etc.clientlibs/asl-common/clientlibs/clientlib-base/resources/shared/js/social/addthis_widget.js#async=1";
+            })();
+        </script>
     </body>
 </html>
